@@ -2098,6 +2098,16 @@ ul.info-list.info_on_right_side li:last-child {
 }
 .page-title{
   font-size: 30px;
+
+}
+
+#banner {
+  position: relative;
+  background-image: url("../images/slide-home1.jpg");
+  width: 100%;
+  height: 75vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .breadc-box {
   color: #f26522;
