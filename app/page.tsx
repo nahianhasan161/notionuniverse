@@ -1,8 +1,8 @@
 import Banner from '@/components/home/Banner/Banner'
+import BlogSection from '@/components/home/Blog__Section/BlogSection'
 import OurMission from '@/components/home/OurMision/OurMission'
 import OurServices from '@/components/home/OurServices/OurServices'
-import Header from '@/components/shared/header/Header'
-import Image from 'next/image'
+import Contact from '@/components/shared/Contact/Contact'
 
 export default function Home() {
   return (
@@ -10,6 +10,8 @@ export default function Home() {
       <Banner />
       <OurMission />
       <OurServices />
+      <Contact />
+      <BlogSection />
     </div>
   )
 }
