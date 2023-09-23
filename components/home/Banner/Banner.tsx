@@ -52,10 +52,11 @@ const Banner = () => {
           </div>
           <p className='tp-caption tp-resizeme sh3"'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam minus rem soluta dolorum ratione placeat enim, consectetur, animi facere dolorem error incidunt veniam tenetur illum totam sequi itaque laudantium molestiae.</p>
         </div>
-        <div className='flex-initial relative'>
-          <Image src={img1} width={800} alt=''></Image>
-        </div>
+        
       </section>
+      <div className='relative'>
+          <Image src={img1} width={800} alt='' className='absolute bottom-0'></Image>
+        </div>
         </SwiperSlide>
         <SwiperSlide>
         <section className='max-w-[1400px] mx-auto flex justify-between items-center h-full'>
