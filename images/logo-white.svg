@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 489.8 163.71">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: url(#radial-gradient-2);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-6 {
+        font-family: OpenSansRoman-Bold, 'Open Sans';
+        font-size: 47px;
+        font-variation-settings: 'wght' 700, 'wdth' 100;
+        font-weight: 700;
+        letter-spacing: -.01em;
+      }
+
+      .cls-6, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-7 {
+        font-family: MSReferenceSansSerif, 'MS Reference Sans Serif';
+        font-size: 11px;
+        letter-spacing: .2em;
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="85.97" cy="-89.79" fx="85.97" fy="-89.79" r="324.45" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".5" stop-color="#2fafe6"/>
+      <stop offset="1" stop-color="#32338f"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="96.27" cy="-94.3" fx="96.27" fy="-94.3" r="262.06" xlink:href="#radial-gradient"/>
+    <linearGradient id="linear-gradient" x1="53.94" y1="131.95" x2="53.94" y2="84.96" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00a0e8"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="91.67" y1="161.56" x2="91.67" y2="121.01" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="37.71" y1="-49.01" x2="116.24" y2="124.46" xlink:href="#linear-gradient"/>
+  </defs>
+  <text class="cls-7" transform="translate(130.55 161.4)"><tspan x="0" y="0">Empowering Finances, Embracing Futures</tspan></text>
+  <text class="cls-6" transform="translate(128.07 144.75) scale(.95 1)"><tspan x="0" y="0">Notion Recovery</tspan></text>
+  <g>
+    <g>
+      <path class="cls-1" d="m150.93,74.52c-15.04,15.04-30.1,30.08-45.15,45.15,1.68,5.15.48,11.03-3.61,15.14-5.8,5.8-15.21,5.8-21.01,0-4.09-4.1-5.29-9.98-3.61-15.14l-18.99-18.99c-3,.99-6.26.99-9.26,0-16.42,16.42-32.81,32.81-49.31,49.17l8.93-.04c6.18-6.18,12.27-12.37,18.46-18.57v29.68h92.45v-46.65c10.42-10.42,20.65-20.52,31.1-30.96l2.96,9.72,12.26-34.42v-8.78l-12.26,34.42-2.96-9.72Z"/>
+      <path class="cls-2" d="m106.49,139.12c-8.19,8.19-21.46,8.19-29.64,0-4.66-4.66-6.8-11.13-5.97-17.48l-14.28-14.28c-1.76.23-3.55.23-5.33,0l-23.88,23.88v11.4l23.88-23.88c1.78.23,3.57.23,5.33,0l14.28,14.26c-.82,6.37,1.32,12.85,5.97,17.5,8.19,8.19,21.45,8.19,29.64,0,4.66-4.66,6.8-11.13,5.97-17.5l7.37-7.37v-11.38l-7.37,7.37c.82,6.36-1.32,12.83-5.97,17.48Z"/>
+    </g>
+    <g>
+      <path class="cls-4" d="m46.16,78.78c-4.31,4.29-4.31,11.26,0,15.56,4.29,4.31,11.26,4.31,15.58,0,4.29-4.3,4.29-11.26,0-15.56-4.31-4.31-11.28-4.31-15.58,0Zm12.48,12.46c-2.6,2.6-6.81,2.6-9.39,0-2.6-2.58-2.6-6.8,0-9.39,2.58-2.58,6.8-2.58,9.39,0,2.58,2.6,2.58,6.82,0,9.39Z"/>
+      <path class="cls-3" d="m83.89,116.5c-4.31,4.31-4.31,11.28,0,15.58,4.3,4.31,11.26,4.31,15.56,0,4.31-4.3,4.31-11.26,0-15.58-4.3-4.29-11.26-4.29-15.56,0Zm12.46,12.48c-2.58,2.6-6.79,2.6-9.37,0-2.6-2.58-2.6-6.8,0-9.39,2.58-2.58,6.8-2.58,9.37,0,2.6,2.6,2.6,6.81,0,9.39Z"/>
+      <path class="cls-5" d="m141.45,65.04l-45.14,45.15c-3-.99-6.26-.99-9.26,0l-18.99-18.99c1.68-5.15.48-11.03-3.61-15.14-5.8-5.8-15.21-5.8-21.02,0-4.09,4.1-5.29,9.98-3.61,15.14l-12.43,12.43v9.49l18.76-18.76c-4.31-4.3-4.31-11.26,0-15.56,4.29-4.31,11.26-4.31,15.58,0,4.29,4.29,4.29,11.26,0,15.56l22.16,22.16c4.3-4.29,11.26-4.29,15.56,0l66.7-66.68-34.42,12.25,9.72,2.96Z"/>
+    </g>
+  </g>
+</svg>
