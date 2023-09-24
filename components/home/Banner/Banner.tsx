@@ -12,6 +12,7 @@ import swiperCore from "swiper"
 import 'swiper/css';
 import 'swiper/css/navigation';
 import SwiperNavButton from './SwiperNavButton'
+import Features from './Features'
 
 
 
@@ -60,6 +61,8 @@ const Banner = () => {
 
         <SwiperNavButton />
       </Swiper>
+
+      <Features />
       
     </div>
   )
