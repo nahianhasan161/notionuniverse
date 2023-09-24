@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import logo from "@/images/logo-white.svg"
 
 const MobileHeader = () => {
   return (
@@ -7,7 +8,7 @@ const MobileHeader = () => {
       <div className="mlogo_wrapper clearfix">
         <div className="mobile_logo">
           <a href="#">
-            <Image src="images/logo-white.svg" alt="Consultax" />
+            <Image src={logo} alt="Consultax" />
           </a>
         </div>
         <div id="mmenu_toggle">

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import { FaFacebook, FaLinkedin, FaChevronUp } from 'react-icons/fa';
-import {MdKeyboardDoubleArrowRight} from "react-icons/md"
+import notionLogo from "@/images/notionlogo.png"
 
 function Footer() {
   return (
@@ -12,7 +12,7 @@ function Footer() {
           <div className="row">
             <div className="col-md-3 col-sm-6">
               <div id="media_image-1" className="widget widget_media_image">
-                <a href="index.html"><Image src="images/notionlogo.png" alt="" /></a>
+                <a href="index.html"><Image src={notionLogo} alt="" /></a>
               </div>
               <div id="custom_html-1" className="widget_text widget widget_custom_html">
                 <div className="textwidget custom-html-widget">

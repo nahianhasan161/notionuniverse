@@ -2109,6 +2109,31 @@ ul.info-list.info_on_right_side li:last-child {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  background-color: rgba(0,0,0,0.5) !important;
+  margin-top: -5px !important;
+  width: 40px !important;
+  height: 50px !important;
+  color: white !important;
+  left: 50px !important;
+}
+
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  background-color: rgba(0,0,0,0.5) !important;
+  background-color: rgba(0,0,0,0.5) !important;
+  margin-top: -5px !important;
+  width: 40px !important;
+  height: 50px !important;
+  color: white !important;
+  right: 50px !important;
+}
+
+
 .breadc-box {
   color: #f26522;
   font-family: "Montserrat", sans-serif;

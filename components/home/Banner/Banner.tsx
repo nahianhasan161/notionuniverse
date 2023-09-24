@@ -21,7 +21,7 @@ const Banner = () => {
 
   return (
     <div className='banner' id='banner' >
-      <Swiper spaceBetween={50} slidesPerView={1} 
+      <Swiper className='swiperS' spaceBetween={50} slidesPerView={1} 
       navigation={{ nextEl: "swiper-button-next", prevEl: "swiper-button-prev" }}
       modules={[Navigation]}  
 
@@ -29,7 +29,7 @@ const Banner = () => {
       
       
       >
-        <SwiperSlide>
+       <SwiperSlide>
         <section className='max-w-[1400px] mx-auto flex justify-between items-center h-full'>
         <div className='max-w-[700px]'>
           <div className='tp-caption tp-resizeme font-second text-second bolder'>WE'RE NOTION RECOVERY</div>
@@ -39,7 +39,7 @@ const Banner = () => {
           <p className='tp-caption tp-resizeme sh3"'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam minus rem soluta dolorum ratione placeat enim, consectetur, animi facere dolorem error incidunt veniam tenetur illum totam sequi itaque laudantium molestiae.</p>
         </div>
         <div className='flex-initial relative'>
-          <Image src={img1} width={800}  alt=''></Image>
+          <Image src={img1} width={800} alt='' className='relative -bottom-28'></Image>
         </div>
       </section>
         </SwiperSlide>
@@ -52,23 +52,8 @@ const Banner = () => {
           </div>
           <p className='tp-caption tp-resizeme sh3"'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam minus rem soluta dolorum ratione placeat enim, consectetur, animi facere dolorem error incidunt veniam tenetur illum totam sequi itaque laudantium molestiae.</p>
         </div>
-        
-      </section>
-      <div className='relative'>
-          <Image src={img1} width={800} alt='' className='absolute bottom-0'></Image>
-        </div>
-        </SwiperSlide>
-        <SwiperSlide>
-        <section className='max-w-[1400px] mx-auto flex justify-between items-center h-full'>
-        <div className='max-w-[700px]'>
-          <div className='tp-caption tp-resizeme font-second text-second bolder'>WE'RE NOTION RECOVERY</div>
-          <div className='tp-caption tp-resizeme font-second text-second bolder text-[50px]' style={{fontSize: "50px"}}>
-            <p>Help You to Grow Your Business</p>
-          </div>
-          <p className='tp-caption tp-resizeme sh3"'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam minus rem soluta dolorum ratione placeat enim, consectetur, animi facere dolorem error incidunt veniam tenetur illum totam sequi itaque laudantium molestiae.</p>
-        </div>
         <div className='flex-initial relative'>
-          <Image src={img1} width={800} alt=''></Image>
+          <Image src={img1} width={800} alt='' className='relative -bottom-28'></Image>
         </div>
       </section>
         </SwiperSlide>
