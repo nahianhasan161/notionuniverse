@@ -2,7 +2,7 @@ import React from 'react'
 
 const OurMission = () => {
   return (
-    <section className="wpb_row row-fluid section-padd row-has-fill row-o-equal-height row-o-content-middle row-flex bg-light">
+    <section className="py-[150px]">
     <div className="container">
       <div className="row">
         <div className="wpb_column column_container col-sm-12">
