@@ -3589,6 +3589,21 @@ a .service-box {
   border-color: #000;
 }
 
+
+/*# testmonial section */
+
+.slick-slide>div {
+  margin: 0 30px;
+}
+
+.slick-slide>div:nth-child(1) {
+  margin-left: 0;
+}
+
+.slick-list {
+  margin-left: -30px;
+}
+
 .testi-item {
   background: #fff;
   border-radius: 2px;

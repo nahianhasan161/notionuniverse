@@ -2,6 +2,7 @@ import React from 'react';
 import user from "@/images/user-icon.jpg"
 import Image from 'next/image';
 import {IoIosQuote} from "react-icons/io"
+import Rating from 'react-rating';
 
 interface TestimonialItemProps {
   name: string;
@@ -11,8 +12,9 @@ interface TestimonialItemProps {
 }
 
 const TestimonialItem: React.FC<TestimonialItemProps> = ({ name, location, rating, text }) => {
+  
   return (
-    <div className="testi-item box-shadow-hover">
+    <div className="testi-item box-shadow-hover max-w-[400px]">
       <div className="testi-head">
         <Image width="50" height="50" src={user} alt="" />
         <h5>
@@ -21,9 +23,8 @@ const TestimonialItem: React.FC<TestimonialItemProps> = ({ name, location, ratin
         </h5>
       </div>
       <div className="line"></div>
-      <div className="testi-content">
-        <IoIosQuote />
-        <img width="86" height="12" src="images/45-star.png" alt="" />
+      <div className="relative py-[40px] px-[30px]">
+        <IoIosQuote className="absolute -top-4 right-12 text-[60px] text-[rgba(242,101,34,0.3)] opacity-40" />
         <p>{text}</p>
       </div>
     </div>
