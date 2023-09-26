@@ -2104,8 +2104,6 @@ ul.info-list.info_on_right_side li:last-child {
 #banner {
   position: relative;
   background-image: url("../images/slide-home1.jpg");
-  width: 100%;
-  height: 65vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -3594,6 +3592,7 @@ a .service-box {
 
 .slick-slide>div {
   margin: 0 30px;
+  
 }
 
 .slick-slide>div:nth-child(1) {
@@ -3602,6 +3601,22 @@ a .service-box {
 
 .slick-list {
   margin-left: -30px;
+}
+
+@media (max-width: 600px) {
+  /* CSS styles for mobile and tablet devices */
+  /* You can put your responsive styles here */
+  .slick-slide>div {
+    width: 100%;
+  }
+}
+
+@media (min-width: 600px) {
+  /* CSS styles for mobile and tablet devices */
+  /* You can put your responsive styles here */
+  .slick-slide>div {
+    max-width: 385px !important;
+  }
 }
 
 .testi-item {

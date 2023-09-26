@@ -36,9 +36,9 @@ const Blogs = () => {
         // Add more blog posts here...
       ];
   return (
-    <div className="news-slider posts-grid  grid grid-cols-3" data-show="2" data-auto="true">
+    <div className="news-slider posts-grid  grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3" data-show="2" data-auto="true">
         {blogPosts.map((post) => (
-        <div key={post.id} className='w-[400px]'>
+        <div key={post.id} className='lg:max-w-[400px]'>
           <article className="news-item content-area">
             <div className="inner-item radius-top">
               <div className="thumb-image">
