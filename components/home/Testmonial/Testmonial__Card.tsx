@@ -2,7 +2,6 @@ import React from 'react';
 import user from "@/images/user-icon.jpg"
 import Image from 'next/image';
 import {IoIosQuote} from "react-icons/io"
-import { Rating } from 'react-simple-star-rating'
 import ReactStars from 'react-rating-star-with-type'
 
 interface TestimonialItemProps {
