@@ -1,8 +1,14 @@
+"use client";
 import Image from "next/image";
 import React from "react";
-import logo from "@/images/logo-white.svg"
+import logo from "@/images/logo-white.svg";
+import { FaPlus } from "react-icons/fa";
+import { GrFormClose } from "react-icons/gr";
 
 const MobileHeader = () => {
+  const [isOpen, setIsOpen] = React.useState(false);
+  const [isApproch, setIsApproch] = React.useState(false);
+  const [isService, setIsService] = React.useState(false);
   return (
     <div className="header_mobile">
       <div className="mlogo_wrapper clearfix">
@@ -11,19 +17,37 @@ const MobileHeader = () => {
             <Image src={logo} alt="Consultax" />
           </a>
         </div>
-        <div id="mmenu_toggle">
+        <div
+          id="mmenu_toggle"
+          className={isOpen ? "active" : ""}
+          onClick={() => setIsOpen(!isOpen)}
+        >
           <button> </button>
         </div>
       </div>
       <div className="mmenu_wrapper">
-        <div className="mobile_nav collapse">
+        <div
+          className={`mobile_nav collapse transition-all ease-in-out duration-500 ${
+            isOpen ? "visibleimportant" : ""
+          }`}
+        >
           <ul id="menu-main-menu" className="mobile_mainmenu">
             <li>
               <a href="index.html">Home</a>
             </li>
             <li className="menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1731">
-              <a href="#">Approach</a>
-              <ul className="sub-menu">
+              <a
+                className=""
+                onClick={() => {
+                  setIsApproch(!isApproch);
+                }}
+              >
+                <span className="flex justify-between">
+                  Approach
+                  <FaPlus />
+                </span>
+              </a>
+              <ul className={`sub-menu ${isApproch ? "visibleimportant" : ""}`}>
                 <li className="menu-item-1738">
                   <a href="about.html">About Us</a>
                 </li>
@@ -36,8 +60,17 @@ const MobileHeader = () => {
               </ul>
             </li>
             <li className="menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1789">
-              <a href="services.html">Services</a>
-              <ul className="sub-menu">
+              <a
+                onClick={() => {
+                  setIsService(!isService);
+                }}
+              >
+                <span className="flex justify-between ">
+                  Services
+                  <FaPlus />
+                </span>
+              </a>
+              <ul className={`sub-menu ${isService ? "visibleimportant" : ""}`}>
                 <li className="menu-item-1791">
                   <a href="debt-restructuring.html">Debt Restructuring</a>
                 </li>
