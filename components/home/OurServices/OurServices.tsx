@@ -1,7 +1,49 @@
 import ServiceItem from '@/components/shared/Cards/ServiceItem'
 import React from 'react'
+import {IoUmbrella} from "react-icons/io5"
+import {GiCube} from "react-icons/gi"
+import {IoMdPodium} from "react-icons/io"
+import {CgMenuBoxed} from "react-icons/cg"
 
 const OurServices = () => {
+  const services = [
+    {
+      id: 1,
+      icon: IoUmbrella,
+      title: "Debt Restructing",
+      description: "To restructure outstanding debt with banks and creditors thus, creating a manageable financial arrangement for clients."
+    },
+    {
+      id: 2,
+      icon: GiCube,
+      title: "Debt Negotiation",
+      description: "To reduce outstanding debts through strategic negotiations for a full settlement with us."
+    },
+    {
+      id: 3,
+      icon: IoMdPodium,
+      title: "Bankruptcy",
+      description: "We analyze your finances, negotiate with banks and the MDI on your behalf, and guide you throughout the bankruptcy release process."
+    },
+    {
+      id: 4,
+      icon: CgMenuBoxed,
+      title: "Total Permanent Disability (TPD) /Death Claims",
+      description: "Professional TPD/Death claim insurance assistance, supporting clients, including communication with insurers and banks for full settlement."
+    },
+     {
+      id: 5,
+      icon: CgMenuBoxed,
+      title: "Debt Consolidation",
+      description: "This service provides a strategic financial solution by consolidating multiple debts, including credit card balances and personal loans, into a single loan with improved terms for individuals and businesses."
+     },
+     {
+      id: 6,
+      icon: CgMenuBoxed,
+      title: "Insurance Claims",
+      description: "We offer expert assistance for individuals and businesses navigating insurance claims, addressing documentation, policy understanding, and past rejection reconsideration."
+     }
+  ]
 
     const data = [1,2,3,4,5,6
     ]
@@ -34,8 +76,8 @@ const OurServices = () => {
         </div>
         {/* Add service items here */}
        <div>
-        {data?.map((item) => {
-            return  <ServiceItem link='fsdf' title='Debt Restructuring' key={item} description='To restructure outstanding debt with banks and creditors thus, creating a manageable financial arrangement for clients.' />
+        {services?.map(({id, title, icon, description}) => {
+            return  <ServiceItem link='www.google.com' title={title} key={id} description={description} icon={icon} />
         })}
        </div>
       </div>

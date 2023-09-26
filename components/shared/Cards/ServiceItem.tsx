@@ -1,20 +1,20 @@
 import React, { FC } from 'react';
-import {IoUmbrella} from "react-icons/io5"
 
 interface ServiceItemProps {
   title: string;
   description: string;
   link: string;
+  icon: React.ElementType
 }
 
-const ServiceItem: FC<ServiceItemProps> = ({ title, description, link }) => {
+const ServiceItem: FC<ServiceItemProps> = ({ title, description, link, icon:Icon }) => {
   return (
     <div className="wpb_column column_container col-sm-6 col-md-4">
       <div className="column-inner">
         <div className="wpb_wrapper">
           <div className="service-box icon-box ionic hover-box">
             {/* Add your service icon here */}
-            <IoUmbrella className="text-orange-600 text-[40px] mb-[20px]" />
+            <Icon className="text-orange-600 text-[40px] mb-[20px]" />
             <div className="content-box">
               <h4>{title}</h4>
               <p>{description}</p>

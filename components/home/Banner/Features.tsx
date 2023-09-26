@@ -1,8 +1,9 @@
-import React from 'react';
-import {IoIosBulb, IoIosMedal} from "react-icons/io"
-import {IoCashSharp, IoHeadset} from "react-icons/io5"
+import React from "react";
+import { IoIosBulb, IoIosMedal } from "react-icons/io";
+import { IoCashSharp, IoHeadset } from "react-icons/io5";
 
 const Features = () => {
+
   return (
     <section className="wpb_row row-fluid top-70 row-has-fill relative">
       <div className="container">
@@ -10,7 +11,9 @@ const Features = () => {
           <div className="wpb_column column_container col-sm-12">
             <div className="column-inner">
               <div className="wpb_wrapper">
-                <div className="empty_space_70 lg-hidden"><span className="empty_space_inner"></span></div>
+                <div className="empty_space_70 lg-hidden">
+                  <span className="empty_space_inner"></span>
+                </div>
               </div>
             </div>
           </div>
@@ -18,14 +21,19 @@ const Features = () => {
             <div className="column-inner">
               <div className="wpb_wrapper">
                 <div className="service-box icon-box box-shadow-2 ionic">
-                <IoIosMedal className="w-[40px] h-[40px] text-[#f26522] mb-[20px]" />
+                  <IoIosMedal className="w-[40px] h-[40px] text-[#f26522] mb-[20px]" />
                   <div className="content-box">
                     <h4>Client Focus</h4>
-                    <p>Understanding the needs of each client and provide personalized solutions.</p>
+                    <p>
+                      Understanding the needs of each client and provide
+                      personalized solutions.
+                    </p>
                   </div>
                 </div>
 
-                <div className="empty_space_30  lg-hidden"><span className="empty_space_inner"></span></div>
+                <div className="empty_space_30  lg-hidden">
+                  <span className="empty_space_inner"></span>
+                </div>
               </div>
             </div>
           </div>
@@ -36,11 +44,16 @@ const Features = () => {
                   <IoIosBulb className="w-[40px] h-[40px] text-[#f26522] mb-[20px]" />
                   <div className="content-box">
                     <h4>Financial Freedom</h4>
-                    <p>Help and support clients attain financial freedom with our services.</p>
+                    <p>
+                      Help and support clients attain financial freedom with our
+                      services.
+                    </p>
                   </div>
                 </div>
 
-                <div className="empty_space_30 lg-hidden"><span className="empty_space_inner"></span></div>
+                <div className="empty_space_30 lg-hidden">
+                  <span className="empty_space_inner"></span>
+                </div>
               </div>
             </div>
           </div>
@@ -48,14 +61,19 @@ const Features = () => {
             <div className="column-inner">
               <div className="wpb_wrapper">
                 <div className="service-box icon-box box-shadow-2 ionic">
-                <IoCashSharp className="w-[40px] h-[40px] text-[#f26522] mb-[20px]" />
+                  <IoCashSharp className="w-[40px] h-[40px] text-[#f26522] mb-[20px]" />
                   <div className="content-box">
                     <h4>Empowerment</h4>
-                    <p>To empower clients with financial knowledge for them to make informed choices.</p>
+                    <p>
+                      To empower clients with financial knowledge for them to
+                      make informed choices.
+                    </p>
                   </div>
                 </div>
 
-                <div className="empty_space_30 lg-hidden"><span className="empty_space_inner"></span></div>
+                <div className="empty_space_30 lg-hidden">
+                  <span className="empty_space_inner"></span>
+                </div>
               </div>
             </div>
           </div>
@@ -63,10 +81,13 @@ const Features = () => {
             <div className="column-inner">
               <div className="wpb_wrapper">
                 <div className="service-box icon-box box-shadow-2 ionic">
-                <IoHeadset className="w-[40px] h-[40px] text-[#f26522] mb-[20px]" />
+                  <IoHeadset className="w-[40px] h-[40px] text-[#f26522] mb-[20px]" />
                   <div className="content-box">
                     <h4>Expertise</h4>
-                    <p>Experienced in the financial industry, guiding clients towards financial decisions.</p>
+                    <p>
+                      Experienced in the financial industry, guiding clients
+                      towards financial decisions.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -76,6 +97,6 @@ const Features = () => {
       </div>
     </section>
   );
-}
+};
 
 export default Features;
