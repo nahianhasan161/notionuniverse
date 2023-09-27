@@ -835,6 +835,9 @@ a.the-title:hover {
   height: 100%;
   z-index: -1;
 }
+.svg>svg{
+  background: transparent !important;
+}
 
 /*--------------------------------------------------------------
 # Elements
