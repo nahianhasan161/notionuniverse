@@ -823,7 +823,7 @@ a.the-title:hover {
 }
 .visibleimportant {
   visibility: visible !important;
-  display:block !important;
+  display: block !important;
 }
 .overlay {
   position: absolute;
@@ -835,8 +835,11 @@ a.the-title:hover {
   height: 100%;
   z-index: -1;
 }
-.svg>svg{
-  background: transparent !important;
+.svg > svg {
+  background: #00387a !important;
+}
+.svg {
+  border: #00387a !important;
 }
 
 /*--------------------------------------------------------------
@@ -2795,7 +2798,7 @@ ul.info-list.info_on_right_side li:last-child {
   border: none;
   position: absolute;
   top: 0;
-  right: 0;
+  right: -25%;
   height: 100%;
   width: 50px;
   outline: none;

@@ -37,7 +37,7 @@ function Footer() {
                       href="https://www.facebook.com/notionuniverse/?locale=ms_MY"
                       rel="noopener noreferrer"
                     >
-                      <FaFacebook className="fill-[#00387a]  bg-white w-full border-transparent h-full flex justify-center items-center" />
+                      <FaFacebook className="fill-white  bg-white w-full border-transparent h-full flex justify-center items-center" />
                     </a>
                     <a
                       className="svg"
@@ -45,7 +45,7 @@ function Footer() {
                       href="https://www.linkedin.com/company/notion-universe-sdn-bhd/"
                       rel="noopener noreferrer"
                     >
-                      <FaLinkedin className="w-full bg-white fill-[#00387a]   h-full flex justify-center items-center" />
+                      <FaLinkedin className="w-full bg-white fill-white   h-full flex justify-center items-center" />
                     </a>
                   </div>
                 </div>

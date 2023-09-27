@@ -67,7 +67,7 @@ const MainHeader = () => {
                     className="toggle_search fright"
                     onClick={() => setIsSearch(!isSearch)}
                   >
-                    <FaSearch className="text-white" />
+                    <FaSearch className="" />
                   </div>
                   <div
                     className={`${
@@ -78,19 +78,18 @@ const MainHeader = () => {
                       role="search"
                       method="get"
                       id="search-form"
-                      className="search-form"
+                      className="search-form max-w-[80%]"
                       action="#"
                     >
                       <input
                         type="search"
-                        className="search-field"
+                        className="search-field "
                         placeholder="Enter keyword..."
-                        value=""
                         name="s"
                         id="search-inputs"
                       />
                       <button type="submit" className="search-submit">
-                        <FaSearch className="text-white" />
+                        <FaSearch className="text-white fill-slate-500" />
                       </button>
                     </form>
                     <div
