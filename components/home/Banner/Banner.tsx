@@ -54,9 +54,10 @@ const Banner = () => {
                     }}
                     modules={[Navigation, Autoplay]}
                     autoplay={{
-                        delay: 2500,
+                        delay: 4500,
                         disableOnInteraction: false,
                     }}
+                    speed={1300}
                 >
                     {demoData?.map(({ id, title, description, image }) => {
                         return (
